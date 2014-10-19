@@ -1,0 +1,10 @@
+{
+	"name": "MarkdownPDF",
+	"description": "Test convert Markdown to PDF",
+	"version": "0.0.1",
+	"devDependencies": {
+		"node-fs": "^0.1.7",
+		"markdown-pdf": "^3.0.2",
+		"grunt-contrib-copy": "^0.7.0"
+	}
+}
