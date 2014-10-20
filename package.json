@@ -1,10 +1,18 @@
 {
-	"name": "MarkdownPDF",
-	"description": "Test convert Markdown to PDF",
+	"name": "markdown-includer-pdf",
 	"version": "0.0.1",
-	"devDependencies": {
+	"description": "Converter markdown to pdf and includer generate singleMD!",
+	"homepage": "https://github.com/robsonaraujojunior/markdown-includer-pdf",
+	"bin": {
+	    "markdown-includer-pdf": "markdown-includer-pdf.js"
+	},	
+	"repository": {
+	    "type": "git",
+	    "url": "git@github.com:robsonaraujojunior/markdown-includer-pdf.git"
+	},
+	"dependencies": {
 		"node-fs": "^0.1.7",
 		"markdown-pdf": "^3.0.2",
-		"grunt-contrib-copy": "^0.7.0"
-	}
+	},
+	"author": "Robson Junior <robson.ga.junior@gmail.com> (http://robsonjunior.cc/)"
 }
